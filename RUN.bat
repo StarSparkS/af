@@ -1,0 +1,1 @@
+cmd /k "cd UI_Python & python main.py"

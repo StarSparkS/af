@@ -1,0 +1,7 @@
+Name,Color,Customer,Center,Contract,Company,Category,Site,LOE,RunOut ,G&A
+Alyssa,Red,H,SSDD,Tcase1,Comp A,Analyst 3,On,0.4,2/2/2018,
+Alyssa,Red,H,SSDD,Tcase1,Comp A,Analyst 1,On,0.6,2/2/2018,
+Brian,Red,H,SSDD,MIPR,Comp A,Analyst 1,On,0.5,2/2/2018,
+Brian,Red,H,SSDD,MIPR,Comp A,Analyst 2,On,0.5,2/2/2018,
+Caroline,Blue,H,SSDD,Tcase1,Comp A,Analyst 1,On,0.85,2/2/2018,Tcase1 Tcase2
+Caroline,Blue,H,SSDD,Tcase1,Comp A,Analyst 2,On,0.15,2/2/2018,Tcase1 Tcase2
