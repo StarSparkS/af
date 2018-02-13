@@ -1,0 +1,57 @@
+Assets + Expenses = Liabilities + Revenue + Carry
+
+Assets
+   MIPRS
+   Receivables
+Expenses
+   In-House
+      WBS#
+        Labor
+           Office Symbol
+        Travel
+        Material
+   Direct-cite
+     Task Orders
+       Labor
+          Company
+            Labor Category
+       Travel
+       Material
+Liabilities
+   Payables
+     Task Orders
+        Labor
+        Travel
+        Material
+Revenue
+   MIPRS
+Carry
+   FY##
+
+Receive money from customer (MIPR#)
+  Debit Assets:MIPRS
+  Credit Revenue
+
+Request 1095 (TDN#)
+  Debit Liabilities:Payables:TO (DRAFT)
+  Credit Assets:MIPRS
+
+Put 1095 on task order (1095#) (SUBMITTED)
+  Debit  Liabilities:Awarded 
+  Credit Liabilities:Payables:TO
+
+Award task order (MOD#) (AWARDED)
+  Debit Assets:Recievables
+  Credit Liabilities:Awarded
+  
+Receive monthly invoice from contracters (Invoice#)
+  Debit Expenses:TaskOrders  (L+T+M)
+  Credit Assets:Receivables
+
+End of Fiscal year
+  Debit Carry:FY##
+  Credit Assets:MIPR
+
+Put money on contract Oct - Dec
+  Debit Expenses:Posted
+  Credit Carry:FY##
