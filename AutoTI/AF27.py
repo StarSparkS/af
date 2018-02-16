@@ -6,6 +6,11 @@ from datetime import date, timedelta, datetime
 from decimal import *
 from lxml import html
 from itertools import groupby
+
+import plotly
+from plotly.graph_objs import Bar, Area, Layout
+import plotly.plotly as py
+import plotly.graph_objs as go
 def enum(**enums):return type('Enum', (), enums)
 pd = enum(name=0,color=1,customer=2,center=3,contract=4,company=5,lc=6,site=7,loe=8,runout=9,gna=10,hrs=11,val=12,tr=13, df=14, hf=15)
 rd = enum(contract=0,company=1,lc=2,site=3,dl=4,dg=5,rate=6)
@@ -184,21 +189,36 @@ def main():
             ngs = ["MIPR", "InHouse"]
             try:
                 SEDhrs = sum(zip(*(filter(lambda gto : gto[pd.center]=="SED", people)))[pd.hrs])
+            except:
+                SEDhrs =  0
+            try:
                 SED_G_mon = sum(zip(*(filter(lambda gto : gto[pd.center]=="SED" and gto[pd.contract] in ngs , people)))[pd.val])
+            except:
+                SED_G_mon = 0
+            try:
                 SED_ds_mon=  sum(zip(*(filter(lambda gto : gto[pd.center]=="SED" and gto[pd.contract] not in ngs , people)))[pd.val])
             except:
-                SEDhrs =  SED_G_mon = SED_ds_mon = 0
+                SED_ds_mon = 0
             try:
-                SSDDhrs = sum(zip(*(filter(lambda gto : gto[pd.center]=="SSDD" , people)))[pd.hrs])
-                SSDD_G_mon = sum(zip(*(filter(lambda gto : gto[pd.center]=="SSDD" and gto[pd.contract] in ngs , people)))[pd.val])
-                SSDD_ds_mon=  sum(zip(*(filter(lambda gto : gto[pd.center]=="SSDD" and gto[pd.contract] not in ngs, people)))[pd.val])
+                SSDDhrs = sum(zip(*(filter(lambda gto : gto[pd.center]=="SSDD", people)))[pd.hrs])
             except:
-                SSDDhrs = SSDD_G_mon = SSDD_ds_mon = 0
+                SSDDhrs = 0
+            try:
+                SSDD_G_mon = sum(zip(*(filter(lambda gto : gto[pd.center]=="SSDD" and gto[pd.contract] in ngs , people)))[pd.val])
+            except:
+                SSDD_G_mon = 0
+            try:
+                SSDD_ds_mon=  sum(zip(*(filter(lambda gto : gto[pd.center]=="SSDD" and gto[pd.contract] not in ngs , people)))[pd.val])
+            except:
+                SSDD_ds_mon = 0
             try:
                 MDAhrs = sum(zip(*(filter(lambda gto : gto[pd.center]=="MDA", people)))[pd.hrs])
+            except:
+                MDAhrs = 0
+            try:
                 MDAmon=  sum(zip(*(filter(lambda gto : gto[pd.center]=="MDA", people)))[pd.val])
             except:
-                MDAhrs = MDAmon = 0
+                MDAmon = 0
             print "\nCenter"
             print "SED: "
             print "\t Hours:       H ", round(SEDhrs, 2)
@@ -269,24 +289,40 @@ def main():
         workdays = workdayFinder(start_Date, end_Date, holidays)
         tolist, people = dates_to_funding(dateratelookup, start_Date, workdays, people, team, accountants)
         ngs = ["MIPR", "InHouse"]
+
         try:
             SEDhrs = sum(zip(*(filter(lambda gto : gto[pd.center]=="SED", people)))[pd.hrs])
+        except:
+            SEDhrs =  0
+        try:
             SED_G_mon = sum(zip(*(filter(lambda gto : gto[pd.center]=="SED" and gto[pd.contract] in ngs , people)))[pd.val])
+        except:
+            SED_G_mon = 0
+        try:
             SED_ds_mon=  sum(zip(*(filter(lambda gto : gto[pd.center]=="SED" and gto[pd.contract] not in ngs , people)))[pd.val])
         except:
-            SEDhrs =  SED_G_mon = SED_ds_mon = 0
+            SED_ds_mon = 0
         try:
-            SSDDhrs = sum(zip(*(filter(lambda gto : gto[pd.center]=="SSDD" , people)))[pd.hrs])
-            SSDD_G_mon = sum(zip(*(filter(lambda gto : gto[pd.center]=="SSDD" and gto[pd.contract] in ngs , people)))[pd.val])
-            SSDD_ds_mon=  sum(zip(*(filter(lambda gto : gto[pd.center]=="SSDD" and gto[pd.contract] not in ngs, people)))[pd.val])
+            SSDDhrs = sum(zip(*(filter(lambda gto : gto[pd.center]=="SSDD", people)))[pd.hrs])
         except:
-            SSDDhrs = SSDD_G_mon = SSDD_ds_mon = 0
+            SSDDhrs = 0
+        try:
+            SSDD_G_mon = sum(zip(*(filter(lambda gto : gto[pd.center]=="SSDD" and gto[pd.contract] in ngs , people)))[pd.val])
+        except:
+            SSDD_G_mon = 0
+        try:
+            SSDD_ds_mon=  sum(zip(*(filter(lambda gto : gto[pd.center]=="SSDD" and gto[pd.contract] not in ngs , people)))[pd.val])
+        except:
+            SSDD_ds_mon = 0
         try:
             MDAhrs = sum(zip(*(filter(lambda gto : gto[pd.center]=="MDA", people)))[pd.hrs])
+        except:
+            MDAhrs = 0
+        try:
+
             MDAmon=  sum(zip(*(filter(lambda gto : gto[pd.center]=="MDA", people)))[pd.val])
         except:
-            MDAhrs = MDAmon = 0
-
+            MDAmon = 0
         #
         # Outputs Costs by branch
         #
@@ -548,6 +584,7 @@ def main():
                             # Tries to fund the team evenly by hour while making sure there is enough money to have possibilities of a 0 remainder solution
                             # 
                             wtconstraint = ks.ratio*tcfh
+
                             #mxwt = 3000
                             #
                             for x in range(0, int(math.floor(hrfundable))):
@@ -739,6 +776,74 @@ def main():
         #
         # pp(people)
         #
+        ngs = ["MIPR", "InHouse"]
+        try:
+            SEDhrs = sum(zip(*(filter(lambda gto : gto[pd.center]=="SED", people)))[pd.hrs])
+        except:
+            SEDhrs =  0
+        try:
+            SED_G_mon = sum(zip(*(filter(lambda gto : gto[pd.center]=="SED" and gto[pd.contract] in ngs , people)))[pd.val])
+        except:
+            SED_G_mon = 0
+        try:
+            SED_ds_mon=  sum(zip(*(filter(lambda gto : gto[pd.center]=="SED" and gto[pd.contract] not in ngs , people)))[pd.val])
+        except:
+            SED_ds_mon = 0
+        try:
+            SSDDhrs = sum(zip(*(filter(lambda gto : gto[pd.center]=="SSDD", people)))[pd.hrs])
+        except:
+            SSDDhrs = 0
+        try:
+            SSDD_G_mon = sum(zip(*(filter(lambda gto : gto[pd.center]=="SSDD" and gto[pd.contract] in ngs , people)))[pd.val])
+        except:
+            SSDD_G_mon = 0
+        try:
+            SSDD_ds_mon=  sum(zip(*(filter(lambda gto : gto[pd.center]=="SSDD" and gto[pd.contract] not in ngs , people)))[pd.val])
+        except:
+            SSDD_ds_mon = 0
+        try:
+            MDAhrs = sum(zip(*(filter(lambda gto : gto[pd.center]=="MDA", people)))[pd.hrs])
+        except:
+            MDAhrs = 0
+        try:
+            MDAmon=  sum(zip(*(filter(lambda gto : gto[pd.center]=="MDA", people)))[pd.val])
+        except:
+            MDAmon = 0
+        #
+        # Outputs Costs by branch
+        #
+        print "*"*50
+        print "\nCenter"
+        print "SED: "
+        print "\t Hours:       H ", round(SEDhrs, 2)
+        print "\t Cost_DS:      $ ", Decimal(SED_ds_mon).quantize(cent, rounding= ROUND_UP)
+        print "\t Cost_G       $ ", Decimal(SED_G_mon).quantize(cent, rounding= ROUND_UP)
+        print "\t InHouseGnA:  $ ", (SED_ds_mon*Decimal(.03)).quantize(cent, rounding= ROUND_UP)
+        print "\t InHouse Total $", Decimal(SED_G_mon).quantize(cent, rounding= ROUND_UP) + (SED_ds_mon*Decimal(.03)).quantize(cent, rounding= ROUND_UP)
+        print "\t Total" , Decimal(SED_G_mon).quantize(cent, rounding= ROUND_UP)+(Decimal(SED_ds_mon)).quantize(cent, rounding= ROUND_UP) + (SED_ds_mon*Decimal(.03)).quantize(cent, rounding= ROUND_UP)
+        print
+        print "SSDD: "
+        print "\t Hours:       H ", round(SSDDhrs,2)
+        print "\t Cost_DS:        $ ", Decimal(SSDD_ds_mon).quantize(cent, rounding= ROUND_UP)
+        print "\t Cost_G       $ ", Decimal(SSDD_G_mon).quantize(cent, rounding= ROUND_UP)
+        print "\t InHouseGnA:  $ ", (SSDD_ds_mon*Decimal(.035)).quantize(cent, rounding= ROUND_UP)
+        print "\t InHouse Total $", Decimal(SSDD_G_mon).quantize(cent, rounding= ROUND_UP) + (SSDD_ds_mon*Decimal(.035)).quantize(cent, rounding= ROUND_UP)
+        print "\t Total" , Decimal(SSDD_G_mon).quantize(cent, rounding= ROUND_UP)+(Decimal(SSDD_ds_mon)).quantize(cent, rounding= ROUND_UP) + (SSDD_ds_mon*Decimal(.035)).quantize(cent, rounding= ROUND_UP)
+        print
+        print "MDA:"
+        print "\t Hours:       H ", round(MDAhrs,2)
+        print "\t Cost:        $ ", Decimal(MDAmon).quantize(cent, rounding= ROUND_UP)
+        print
+        print "*"*50
+        print "FULL TOTAL : ",  Decimal(MDAmon).quantize(cent, rounding= ROUND_UP)\
+        +(Decimal(SSDD_ds_mon)).quantize(cent, rounding= ROUND_UP)\
+        +(SSDD_ds_mon*Decimal(.035)).quantize(cent, rounding= ROUND_UP)\
+        +(Decimal(SED_ds_mon)).quantize(cent, rounding= ROUND_UP)\
+        +(SED_ds_mon*Decimal(.03)).quantize(cent, rounding= ROUND_UP)\
+        + Decimal(SSDD_G_mon).quantize(cent, rounding= ROUND_UP)\
+        + Decimal(SED_G_mon).quantize(cent, rounding= ROUND_UP)
+        print "*"*50
+        print
         for x in people:
             print x
     linr = linr+"\n"
@@ -935,6 +1040,7 @@ def dataMaker(people, spt):
                 daterow = filter(lambda x: len(x)>0, daterow)[2:]
                 raterows = lst[i][(bnds[z]+3):en]
                 for raterow in raterows:
+                    # print to, company, raterow
                     raterow = raterow.encode('utf-8').replace('\r', '').replace('\n', '').split("\t")
                     lc = raterow[0]
                     site = raterow[1]
@@ -944,7 +1050,7 @@ def dataMaker(people, spt):
                     # filters company table and stores relevant labor category
                     #
                     if(check2):
-                        # print to, company, lc, site
+                        print to, company, lc, site
                         raterow = (filter(lambda x: len(x)>0, raterow))[2:]
                         for index in range(0,len(raterow)):
                             try:
