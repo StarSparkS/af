@@ -38,9 +38,26 @@ from itertools import groupby
 
 a = open("inputs.md.html","r")
 tabstart = 0
+tables = []
 for n in a:
-    if (str(n)== "**_**"):
+    if ("**_**"in n):
+        if tabstart ==1:
+            table = []
+
         tabstart+=1
-        tabstart= tabstart%3
+        if tabstart ==3:
+            tables.append(table)
+            tabstart= tabstart%2
+    elif tabstart ==2:
+        if ("-" not in n and len(n)>0):
+            table.append(n.replace("\t", " ").strip().replace(" ", "").split("|"))
+  
+
+        
         
 print ("DONE")    
+for tab in tables:
+    print("table")
+    for lin in tab:
+        print (lin)
+    print
