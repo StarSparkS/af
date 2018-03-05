@@ -19,7 +19,28 @@
 # Jim
 # CLASSIFICATION: UNCLASSIFIED
 
-while(1):
-    data = input()
-    if(data):
-        print ("hello")
+# while(1):
+#     data = input()
+#     if(data):
+#         print ("hello")
+# IVV 
+
+
+import math,os,csv,functools,operator,io,re,sys,csv,requests,argparse, calendar
+from copy import deepcopy
+from collections import defaultdict
+from pprint import pprint as pp
+from datetime import date, timedelta, datetime
+from decimal import *
+# from lxml import html
+from itertools import groupby
+
+
+a = open("inputs.md.html","r")
+tabstart = 0
+for n in a:
+    if (str(n)== "**_**"):
+        tabstart+=1
+        tabstart= tabstart%3
+        
+print ("DONE")    
