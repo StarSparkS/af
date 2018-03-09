@@ -186,7 +186,7 @@ def main():
             workdays = workdayFinder(start_Date, end_Date, holidays)
             # temppeople = people
             tolist, people = dates_to_funding(dateratelookup, start_Date, workdays, people, team, accountants)
-            ngs = ["MIPR", "InHouse"]
+            ngs = ["MIPR", "InHouse", "InHouse-SSDD", "InHouse-SED", "InHouse-MDA"]
             try:
                 SEDhrs = sum(zip(*(filter(lambda gto : gto[pd.center]=="SED", people)))[pd.hrs])
             except:
@@ -288,7 +288,7 @@ def main():
         end_Date = date(int(yr), int(m), int(d))
         workdays = workdayFinder(start_Date, end_Date, holidays)
         tolist, people = dates_to_funding(dateratelookup, start_Date, workdays, people, team, accountants)
-        ngs = ["MIPR", "InHouse"]
+        ngs = ["MIPR", "InHouse", "InHouse-SSDD", "InHouse-SED", "InHouse-MDA"]
 
         try:
             SEDhrs = sum(zip(*(filter(lambda gto : gto[pd.center]=="SED", people)))[pd.hrs])
@@ -776,7 +776,7 @@ def main():
         #
         # pp(people)
         #
-        ngs = ["MIPR", "InHouse"]
+        ngs = ["MIPR", "InHouse", "InHouse-SSDD", "InHouse-SED", "InHouse-MDA"]
         try:
             SEDhrs = sum(zip(*(filter(lambda gto : gto[pd.center]=="SED", people)))[pd.hrs])
         except:

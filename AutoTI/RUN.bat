@@ -1,0 +1,1 @@
+C:\Python27\python ./AF27.py %1 Rates CoEqs.txt RUN_LOG.csv MIPR_DATA.csv Travel_DATA.csv TI_DATA.csv  %2 %3 %4 %5 %6 %7 %8 %9
