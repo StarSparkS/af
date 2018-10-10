@@ -9,4 +9,3 @@ from lxml import html
 from itertools import groupby
 
 print("hello")
-
