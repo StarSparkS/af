@@ -1,0 +1,1 @@
+py -2 ./AF36.py %1 Rates CoEqs.txt RUN_LOG.csv %2 %3 %4 %5 %6 %7 %8 %9

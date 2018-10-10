@@ -1,0 +1,32 @@
+v,,,,
+,,,,
+The first column designates the type of data that the row contains,,,,
+There are 3 types of rows:,,,,
+,,,,
+,CONTRACTOR rows wherein:,,,
+,,"1st Column: ""CONTRACTOR""",,
+,,2nd Column: Contractor Name,,
+,,"3rd Column: Schedule Type (values: ""PES"" ""MOBIS"" ""LOG"" ""IT"")",,
+,,"4th+ Columns: contains the period for hours listed in this column. Formatted as ""(M)M/(D)D/(YY)YY - (M)M/(D)D/(YY)YY""",,
+,,,,
+,CATEGORY rows wherein:,,,
+,,"1st Column: ""CATEGORY""",,
+,,2nd Column: Labor Category Name,,
+,,"3rd Column: the site type (valid values are ""ON"" and ""OFF"")",,
+,,4th+ Columns: hours for each period,,
+,,,,
+,"Ignored rows - all rows that do not have ""CONTRACTOR"" or ""CATEGORY"" as the first column will be an ignored row",,,
+,,,,
+All CATEGORY rows following after a CONTRACTOR row are associated with that contractor.,,,,
+,,,,
+CONTRACTOR,"4M Research, Inc.",PES,8/26/13 - 2/21/15,2/22/2015 - 8/25/15
+CATEGORY,Administrative Support II,ON,200,300
+CATEGORY,Manager III,OFF,250,300
+CATEGORY,Project Manager V,ON,100,150
+CATEGORY,Senior Engineer/Analyst I,OFF,300,350
+,,,,
+CONTRACTOR,"DESE Research, Inc.",PES,5/9/14 - 5/8/15,5/9/15 - 5/8/2016
+CATEGORY,Engineer/Scientist II,ON,130,180
+CATEGORY,Engineer/Scientist IV,ON,230,280
+CATEGORY,Program Manager II,OFF,170,170
+CATEGORY,Subject Matter Expert,OFF,120,160

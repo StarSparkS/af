@@ -1,0 +1,4 @@
+Description,Non-GSA,# Units,$/Unit,Note: Content of first row is always ignored
+Laptop,FALSE,3,700,
+Computer Monitor,TRUE,6,250,
+Widgets,FALSE,15,$11.29 ,
