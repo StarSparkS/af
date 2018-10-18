@@ -6,10 +6,13 @@ from datetime import date, timedelta, datetime
 from decimal import *
 from itertools import groupby
 from openpyxl import * #reads workbooks
+from openpyxl.worksheet.table import *
+# from openpyxl import **
 from HolidayScraper import webScraper #gets Federal Holidays
 
 def main():
     args = cmdlread()
+    filtercmd(args)
     holidays = webScraper()
     config(args, holidays)
 
@@ -31,11 +34,24 @@ def cmdlread():
     parser.add_argument('-exl', metavar="EXL", help="Runs without a certain company")
     args = parser.parse_args()
     return args 
-def filtercmd():
+def filtercmd(args):
     return 
 def config(args, holidays):
     wb = load_workbook(filename = 'wt1.xlsx')
     s = wb.sheetnames
+    print (s[0])
+    ws = wb[s[0]]
+    print (ws)
+    print (*ws)
+    tab = Table(displayName= "CONFIG",ref = "A2:C9")
+    # table = ws['A2':'C9']
+    print(*tab)
+    # s = (table)
+    # print (s)
+    # print (*table.values)
+    # print(table.values)
+    # troweprice = dict(zip(*table.values))
+    # print (troweprice)
     return
 if __name__ == '__main__':
     main()
