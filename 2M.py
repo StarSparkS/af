@@ -52,6 +52,7 @@ def config(args, holidays):
     # print(table.values)
     # troweprice = dict(zip(*table.values))
     # print (troweprice)
+    wb.close()
     return
 if __name__ == '__main__':
     main()
