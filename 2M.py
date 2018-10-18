@@ -44,7 +44,7 @@ def config(args, holidays):
     print (ws)
     print (*ws)
     tab = Table(displayName= "CONFIG",ref = "A2:C9")
-    # table = ws['A2':'C9']
+    table = ws['A2':'C9']
     print(*tab)
     # s = (table)
     # print (s)
