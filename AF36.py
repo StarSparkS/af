@@ -539,27 +539,27 @@ def expend_funds(args, pd,rd,rr,ks,funds, people, team, accountants, start_Date,
     #
     ngs = ["MIPR", "InHouse", "InHouse-SSDD", "InHouse-SED", "InHouse-MDA"]
     try:
-        SEDhrs = sum(zip(*(filter(lambda gto : gto[pd.center]=="SED", people)))[pd.hrs])
+        SEDhrs = sum(zip(*(filter(lambda gto : gto[pd.center]=="S3I", people)))[pd.hrs])
     except:
         SEDhrs =  0
     try:
-        SED_G_mon = sum(zip(*(filter(lambda gto : gto[pd.center]=="SED" and gto[pd.contract] in ngs , people)))[pd.val])
+        SED_G_mon = sum(zip(*(filter(lambda gto : gto[pd.center]=="S3I" and gto[pd.contract] in ngs , people)))[pd.val])
     except:
         SED_G_mon = 0
     try:
-        SED_ds_mon=  sum(zip(*(filter(lambda gto : gto[pd.center]=="SED" and gto[pd.contract] not in ngs , people)))[pd.val])
+        SED_ds_mon=  sum(zip(*(filter(lambda gto : gto[pd.center]=="S3I" and gto[pd.contract] not in ngs , people)))[pd.val])
     except:
         SED_ds_mon = 0
     try:
-        SSDDhrs = sum(zip(*(filter(lambda gto : gto[pd.center]=="SSDD", people)))[pd.hrs])
+        SSDDhrs = sum(zip(*(filter(lambda gto : gto[pd.center]=="S3I", people)))[pd.hrs])
     except:
         SSDDhrs = 0
     try:
-        SSDD_G_mon = sum(zip(*(filter(lambda gto : gto[pd.center]=="SSDD" and gto[pd.contract] in ngs , people)))[pd.val])
+        SSDD_G_mon = sum(zip(*(filter(lambda gto : gto[pd.center]=="S3I" and gto[pd.contract] in ngs , people)))[pd.val])
     except:
         SSDD_G_mon = 0
     try:
-        SSDD_ds_mon=  sum(zip(*(filter(lambda gto : gto[pd.center]=="SSDD" and gto[pd.contract] not in ngs , people)))[pd.val])
+        SSDD_ds_mon=  sum(zip(*(filter(lambda gto : gto[pd.center]=="S3I" and gto[pd.contract] not in ngs , people)))[pd.val])
     except:
         SSDD_ds_mon = 0
     try:
@@ -575,21 +575,21 @@ def expend_funds(args, pd,rd,rr,ks,funds, people, team, accountants, start_Date,
     #
     print "*"*50
     print "\nCenter"
-    print "SED: "
+    print "S3I: "
     print "\t Hours:       H ", round(SEDhrs, 2)
     print "\t Cost_DS:      $ ", Decimal(SED_ds_mon)
     print "\t Cost_G       $ ", Decimal(SED_G_mon)
-    print "\t InHouseGnA:  $ ", (SED_ds_mon*Decimal(.03))
-    print "\t InHouse Total $", Decimal(SED_G_mon) + (SED_ds_mon*Decimal(.03))
-    print "\t Total" , Decimal(SED_G_mon)+(Decimal(SED_ds_mon)) + (SED_ds_mon*Decimal(.03))
+    print "\t InHouseGnA:  $ ", (SED_ds_mon*Decimal(.027))
+    print "\t InHouse Total $", Decimal(SED_G_mon) + (SED_ds_mon*Decimal(.027))
+    print "\t Total" , Decimal(SED_G_mon)+(Decimal(SED_ds_mon)) + (SED_ds_mon*Decimal(.027))
     print
-    print "SSDD: "
+    print "S3I: "
     print "\t Hours:       H ", round(SSDDhrs,2)
     print "\t Cost_DS:        $ ", Decimal(SSDD_ds_mon)
     print "\t Cost_G       $ ", Decimal(SSDD_G_mon)
-    print "\t InHouseGnA:  $ ", (SSDD_ds_mon*Decimal(.035))
-    print "\t InHouse Total $", Decimal(SSDD_G_mon) + (SSDD_ds_mon*Decimal(.035))
-    print "\t Total" , Decimal(SSDD_G_mon)+(Decimal(SSDD_ds_mon)) + (SSDD_ds_mon*Decimal(.035))
+    print "\t InHouseGnA:  $ ", (SSDD_ds_mon*Decimal(.027))
+    print "\t InHouse Total $", Decimal(SSDD_G_mon) + (SSDD_ds_mon*Decimal(.027))
+    print "\t Total" , Decimal(SSDD_G_mon)+(Decimal(SSDD_ds_mon)) + (SSDD_ds_mon*Decimal(.027))
     print
     print "MDA:"
     print "\t Hours:       H ", round(MDAhrs,2)
@@ -598,9 +598,9 @@ def expend_funds(args, pd,rd,rr,ks,funds, people, team, accountants, start_Date,
     print "*"*50
     print "FULL TOTAL : ",  Decimal(MDAmon)\
     +(Decimal(SSDD_ds_mon))\
-    +(SSDD_ds_mon*Decimal(.035))\
+    +(SSDD_ds_mon*Decimal(.027))\
     +(Decimal(SED_ds_mon))\
-    +(SED_ds_mon*Decimal(.03))\
+    +(SED_ds_mon*Decimal(.027))\
     + Decimal(SSDD_G_mon)\
     + Decimal(SED_G_mon)
     print "*"*50
@@ -646,7 +646,20 @@ def expend_funds(args, pd,rd,rr,ks,funds, people, team, accountants, start_Date,
 
     balance = Decimal(funds) - Decimal(sum(zip(*dateratelookup)[rd.val]))
     print balance
-
+    fcbs = set(peeps[pd.contract] for peeps in people)
+    fcbs = list(fcbs)
+    v= []
+    for n in fcbs:
+        # p = sum(zip(*list(filter(lambda x: x[rd.contract] == n, dateratelookup))))
+        fr = filter(lambda x: x[rd.contract] == n, dateratelookup)
+        p = sum(zip(*fr)[rd.val])
+        print "####"
+        print "####"
+        print n
+        print p
+        print "####"
+        v.append(p)
+    print v
     print
     print "Input:", funds
     print "Output:", Decimal(sum(zip(*dateratelookup)[rd.val]))
