@@ -1,0 +1,142 @@
+1st Edge LLC - PES			
+Labor Category	Site	8/26/2017 - 8/25/2018	8/26/2018 - 8/25/2019
+Engineer/Scientist I	On	65.56	67.69
+Engineer/Scientist IV	On	121.72	125.68
+Engineer/Scientist V	On	145.57	150.3
+Program Analyst I	On	75.47	77.92
+Program Analyst IV	On	116.46	120.24
+Program Analyst IX	On	173.45	179.09
+Program Analyst VI	On	135.06	139.45
+Program Analyst VIII	On	150.95	155.86
+Senior Engineer/ Scientist IV	On	265.56	274.19
+			
+"Aegis Technologies Group, Inc., The - PES"			
+Labor Category	Site	10/29/2017 - 10/28/2018	10/29/2019 - 10/28/2020
+Administrative Support	On	30.86	31.92
+Administrative Support	Off	35.48	36.69
+Computer Scientist/PES	On	59.48	61.52
+Engineer III	On	76.75	79.38
+Modeling and Simulation Specialist I	On	92.46	95.63
+Program Manager I	Off	160.8	166.31
+Program Manager II	On	132.88	137.43
+Program Manager III	On	163.51	173.47
+Research Scientist II	On	150	155.15
+Senior Programmer	Off	90.79	93.9
+Software Engineer I	On	72.7	75.19
+Software Engineer III	Off	135.09	139.73
+Software Engineer III	On	102.02	105.51
+Subject Matter Expert II	On	135.27	139.91
+Subject Matter Expert III	On	195.5	202.2
+Systems Analyst II	On	102.02	105.51
+Systems Analyst III	On	120.95	125.09
+Systems Engineer IV	Off	104.75	108.34
+Visual Engineer	Off	141.23	146.07
+Web/Graphics Designer I	Off	67.45	69.76
+			
+"Simulation Technologies, Inc. - IT"			
+Labor Category	Site	12/11/2017 - 12/10/2018	12/11/2018 - 12/10/2019
+Admin III	On	58.32	59.49
+IT Analyst/Engineer I	On	70.5	71.91
+IT Analyst/Engineer III	On	89.46	91.25
+IT Analyst/Engineer IV	On	93.33	95.2
+IT Analyst/Engineer V	On	102.57	104.62
+IT Analyst/Engineer VI	On	106.54	108.67
+IT Analyst/Engineer VII	On	117.85	120.21
+IT Analyst/Engineer VIII	On	135.25	137.96
+IT Analyst/Engineer X	On	224.21	228.69
+Subject Matter Expert I	On	248.77	253.75
+Tech I	On	39.87	40.67
+			
+"Simulation Technologies, Inc. - PES"			
+Labor Category	Site	8/26/2017 - 8/25/2018	8/26/2018 - 8/25/2019
+Engineer/Scientist III	On	102.63	105.97
+Engineer/Scientist V	On	145.57	150.3
+Program Analyst I	On	75.47	77.92
+Program Analyst III	On	111.23	114.84
+Program Analyst IV	On	116.46	120.24
+Program Analyst VI	On	135.06	139.45
+Program Analyst VIII	On	150.95	155.86
+Senior Engineer/ Scientist I	On	164.26	169.6
+Senior Engineer/ Scientist II	On	189.17	195.32
+Senior Engineer/Scientist III	On	205.78	212.47
+			
+"Torch Technologies, Inc. - PES"			
+Labor Category	Site	8/26/2017 - 8/25/2018	8/26/2018 - 8/25/2019
+Admin I	On	33.34	34.42
+Admin I	Off	38.05	39.42
+Admin II	Off	53.95	55.7
+Admin II	On	51.87	53.56
+Admin III	Off	66.94	69.12
+Admin III	On	62.24	64.26
+Engineer/Scientist I	On	65.56	67.69
+Engineer/Scientist I	Off	74.83	77.52
+Engineer/Scientist II	On	83.28	85.99
+Engineer/Scientist II	Off	95.05	98.47
+Engineer/Scientist III	On	102.63	105.97
+Engineer/Scientist III	Off	117.14	121.37
+Engineer/Scientist IV	Off	138.92	143.93
+Engineer/Scientist IV	On	121.72	125.68
+Engineer/Scientist V	Off	166.14	172.13
+Engineer/Scientist V	On	145.57	150.3
+Program Analyst I	Off	77.41	79.93
+Program Analyst I	On	75.47	77.92
+Program Analyst III	On	111.23	114.84
+Program Analyst IV	Off	132.89	137.68
+Program Analyst IV	On	116.46	120.24
+Program Analyst IX	Off	197.95	205.07
+Program Analyst IX	On	173.45	179.09
+Program Analyst V	Off	143.92	149.1
+Program Analyst V	On	126.09	130.19
+Program Analyst VI	Off	154.13	159.68
+Program Analyst VI	On	135.06	139.45
+Program Analyst VII	Off	159.49	165.23
+Program Analyst VII	On	139.73	144.27
+Program Analyst VIII	Off	172.27	178.47
+Program Analyst VIII	On	150.95	155.86
+Senior Engineer/ Scientist I	On	164.26	169.6
+Senior Engineer/ Scientist I	Off	187.4	194.14
+Senior Engineer/ Scientist II	Off	215.91	223.69
+Senior Engineer/ Scientist II	On	189.17	195.32
+Senior Engineer/ Scientist IV	Off	303.08	313.99
+Senior Engineer/ Scientist IV	On	265.56	274.19
+Senior Engineer/Scientist III	On	205.78	212.47
+Senior Engineer/Scientist III	Off	234.85	243.3
+Tech I	On	52.16	53.86
+Tech II	On	65.71	67.85
+			
+"Torch Technologies, Inc. - IT"			
+Labor Category	Site	12/11/2017 - 12/10/2018	12/11/2018 - 12/10/2019
+Admin I	On	31.16	31.78
+Admin I	Off	40.88	42.51
+Admin II	Off	50.64	52.66
+Admin II	On	45.36	47.18
+Admin III	On	58.32	59.49
+Admin III	Off	65.87	67.19
+Entry Level Engineer	On	61.21	62.43
+Entry Level Engineer	Off	69.33	72.1
+IT Analyst/Engineer I	Off	81.39	84.65
+IT Analyst/Engineer I	On	70.5	71.91
+IT Analyst/Engineer II	Off	92.24	95.2
+IT Analyst/Engineer II	On	78.25	79.82
+IT Analyst/Engineer III	Off	103.98	106.06
+IT Analyst/Engineer III	On	89.46	91.25
+IT Analyst/Engineer IV	On	93.33	95.2
+IT Analyst/Engineer IV	Off	111.68	113.91
+IT Analyst/Engineer IX	Off	159.9	166.3
+IT Analyst/Engineer IX	On	143.23	148.96
+IT Analyst/Engineer V	Off	119.25	121.64
+IT Analyst/Engineer V	On	102.57	104.62
+IT Analyst/Engineer VI	Off	128.47	131.04
+IT Analyst/Engineer VI	On	106.54	108.67
+IT Analyst/Engineer VII	On	117.85	120.21
+IT Analyst/Engineer VII	Off	142.1	144.94
+IT Analyst/Engineer VIII	On	135.25	137.96
+IT Analyst/Engineer VIII	Off	151.78	157.85
+IT Analyst/Engineer X	Off	260.61	265.82
+IT Analyst/Engineer X	On	224.21	228.69
+Subject Matter Expert I	On	248.77	253.75
+Subject Matter Expert I	Off	305.5	311.61
+Tech I	On	39.87	40.67
+Tech I	Off	46.05	47.89
+Tech II	Off	69.48	72.26
+Tech II	On	61.56	62.79

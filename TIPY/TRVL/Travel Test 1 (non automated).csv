@@ -1,0 +1,5 @@
+Num People,Month,Year,From,To,Duration,Expedia Avg,Est Airfare Cost,Rental Car,Lodging,Meals,ODC,Note: Content of first row is always ignored
+3,9,2018,"Huntsville, AL","Tucson, AZ",5,1629,1791.9,825,1800,1050,360,
+3,10,2018,"Huntsville, AL","Tucson, AZ",5,1692,1861.2,825,1800,1050,360,
+3,11,2018,"Huntsville, AL","Tucson, AZ",5,2145,2359.5,825,1800,1050,360,
+4,9,2018,"Huntsville, AL","Chattanooga,TN",5,2176,2393.6,1100,2400,1400,360,

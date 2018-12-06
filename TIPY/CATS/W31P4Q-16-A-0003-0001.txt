@@ -1,0 +1,226 @@
+"A-P-T Research, Inc. - PSS"							
+Labor Category	Site						
+							
+COLSA Corporation - PSS							
+Labor Category	Site	9/10/2015 - 9/9/2016	9/10/2016 - 9/9/2017	9/10/2017 - 9/9/2018	9/10/2018 - 9/9/2019	9/10/2019 - 9/9/2020	9/10/2020 - 9/9/2021
+*Administrative Assistant I	On	22.88	23.16	23.43	23.71	23.99	23.99
+*Administrative Assistant III	On	34.43	34.84	35.26	35.67	36.09	36.09
+Administrative Assistant I	On	22.88	22.88	23.16	23.43	23.71	23.99
+Administrative Assistant III	On	34.43	34.43	34.84	35.26	35.67	36.09
+Aeronautical Engineer II	On	57.42	58.06	58.7	59.33	59.97	59.97
+Aeronautical Engineer III	On	70.08	70.86	71.64	72.42	73.2	73.2
+Configuration &amp; Data Management Analyst I	On	34.47	34.89	35.3	35.72	36.13	36.13
+Configuration Management Analyst II	On	36.34	36.78	37.21	37.65	38.09	38.09
+Configuration Management Analyst III	On	60.44	61.1	61.76	62.42	63.07	63.07
+Configuration Management Specialist	On	69.1	69.96	70.82	71.69	72.55	72.55
+Cost Engineer II	On	43.17	43.71	44.25	44.79	45.33	45.33
+Cost Engineer III	On	67.28	68.04	68.81	69.57	70.33	70.33
+Cyber Specialist II	On	42.38	42.89	43.4	43.91	44.42	44.42
+Drafter III	On	37.44	37.89	38.34	38.79	39.25	39.25
+Engineer Technician III	On	54.03	54.03	54.03	54.03	54.03	54.03
+Engineering Assistant I	On	23.45	23.73	24	24.28	24.56	24.56
+Engineering Assistant II	On	37.26	37.7	38.14	38.58	39.02	39.02
+Graphics Technician III	On	44.87	44.87	44.87	44.87	44.87	44.87
+Logistics Engineer I	On	41.83	42.3	42.76	43.23	43.69	43.69
+Logistics Engineer II	On	65.09	65.78	66.47	67.16	67.86	67.86
+Logistics Engineer III	On	76.88	77.81	78.74	79.66	80.59	80.59
+Mechanical Engineer II	On	71.29	72.08	72.87	73.67	74.46	74.46
+Military Systems Specialist II	On	122.78	124.42	126.06	127.69	129.33	129.33
+Network Systems Analyst III	On	65.55	66.33	67.11	67.89	68.67	68.67
+Project Manager III	On	115.82	117.21	118.61	120	121.4	121.4
+Project Specialist I	On	97.87	99.05	100.23	101.41	102.59	102.59
+Project Specialist II	On	117.15	118.57	119.98	121.39	122.8	122.8
+Project Specialist III	On	127.95	129.49	131.04	132.58	134.12	134.12
+Quality Engineer I	On	45.32	45.8	46.28	46.76	47.25	47.25
+Quality Engineer II	On	57	57.68	58.37	59.06	59.74	59.74
+Quality Engineer III	On	81.07	81.97	82.87	83.77	84.68	84.68
+Scientist	On	103.9	105.05	106.2	107.36	108.51	108.51
+Senior  Scientist	On	122.12	123.41	124.69	125.98	127.26	127.26
+Software Engineer I	On	40.81	41.3	41.79	42.29	42.78	42.78
+Software Engineer II	On	56.65	57.33	58.01	58.7	59.38	59.38
+Software Engineer III	On	66.52	67.32	68.12	68.92	69.72	69.72
+Software Engineer IV	On	92.12	93.21	94.29	95.37	96.46	96.46
+Subject Matter Expert I	On	182.1	184.3	186.49	188.68	190.88	190.88
+Subject Matter Expert II	On	258.34	261.38	264.42	267.46	270.5	270.5
+Subject Matter Expert III	On	278.93	282.64	286.36	290.08	293.8	293.8
+Systems Engineer I	On	47.23	47.8	48.37	48.93	49.5	49.5
+Systems Engineer II	On	64.28	65.06	65.83	66.61	67.38	67.38
+Systems Engineer III	On	85.87	86.91	87.94	88.98	90.01	90.01
+Technical Document Specialist II	On	54.85	54.85	54.85	54.85	54.85	54.85
+Technical Document Specialist III	On	63.51	63.51	63.51	63.51	63.51	63.51
+Training Specialist I	On	44.86	45.4	45.94	46.48	47.02	47.02
+Training Specialist II	On	61.08	61.82	62.55	63.29	64.02	64.02
+							
+"Modern Technology Solutions, Inc. (dba MTSI) - PSS"							
+Labor Category	Site	9/10/2015 - 9/9/2016	9/10/2016 - 9/9/2017	9/10/2017 - 9/9/2018	9/10/2018 - 9/9/2019	9/10/2019 - 9/9/2020	9/10/2020 - 9/9/2021
+Aeronautical Engineer II	On	57.42	58.06	58.7	59.33	59.97	59.97
+Aeronautical Engineer III	On	70.08	70.86	71.64	72.42	73.2	73.2
+Configuration &amp; Data Management Analyst I	On	34.47	34.89	35.3	35.72	36.13	36.13
+Configuration Management Analyst II	On	36.34	36.78	37.21	37.65	38.09	38.09
+Configuration Management Analyst III	On	60.44	61.1	61.76	62.42	63.07	63.07
+Configuration Management Specialist	On	69.1	69.96	70.82	71.69	72.55	72.55
+Cyber Specialist II	On	42.38	42.89	43.4	43.91	44.42	44.42
+Drafter III	On	37.44	37.89	38.34	38.79	39.25	39.25
+Logistics Engineer I	On	41.83	42.3	42.76	43.23	43.69	43.69
+Logistics Engineer II	On	65.09	65.78	66.47	67.16	67.86	67.86
+Logistics Engineer III	On	76.88	77.81	78.74	79.66	80.59	80.59
+Mechanical Engineer II	On	71.29	72.08	72.87	73.67	74.46	74.46
+Military Systems Specialist II	On	122.78	124.42	126.06	127.69	129.33	129.33
+Network Systems Analyst III	On	65.55	66.33	67.11	67.89	68.67	68.67
+Project Manager III	On	115.82	117.21	118.61	120	121.4	121.4
+Project Specialist I	On	97.87	99.05	100.23	101.41	102.59	102.59
+Project Specialist II	On	117.15	118.57	119.98	121.39	122.8	122.8
+Project Specialist III	On	127.95	129.49	131.04	132.58	134.12	134.12
+Quality Engineer I	On	45.32	45.8	46.28	46.76	47.25	47.25
+Quality Engineer II	On	57	57.68	58.37	59.06	59.74	59.74
+Quality Engineer III	On	81.07	81.97	82.87	83.77	84.68	84.68
+Scientist	On	103.9	105.05	106.2	107.36	108.51	108.51
+Senior  Scientist	On	122.12	123.41	124.69	125.98	127.26	127.26
+Software Engineer I	On	40.81	41.3	41.79	42.29	42.78	42.78
+Software Engineer II	On	56.65	57.33	58.01	58.7	59.38	59.38
+Software Engineer III	On	66.52	67.32	68.12	68.92	69.72	69.72
+Software Engineer IV	On	92.12	93.21	94.29	95.37	96.46	96.46
+Subject Matter Expert I	On	182.1	184.3	186.49	188.68	190.88	190.88
+Subject Matter Expert II	On	258.34	261.38	264.42	267.46	270.5	270.5
+Subject Matter Expert III	On	278.93	282.64	286.36	290.08	293.8	293.8
+Systems Engineer I	On	47.23	47.8	48.37	48.93	49.5	49.5
+Systems Engineer II	On	64.28	65.06	65.83	66.61	67.38	67.38
+Systems Engineer III	On	85.87	86.91	87.94	88.98	90.01	90.01
+Technical Document Specialist II	On	54.85	54.85	54.85	54.85	54.85	54.85
+Technical Document Specialist III	On	63.51	63.51	63.51	63.51	63.51	63.51
+Training Specialist I	On	44.86	45.4	45.94	46.48	47.02	47.02
+Training Specialist II	On	61.08	61.82	62.55	63.29	64.02	64.02
+									
+"Dynetics, Inc. - PSS"							
+Labor Category	Site																	
+							
+"OASYS, Inc. - PSS"							
+Labor Category	Site	9/10/2015 - 9/9/2016	9/10/2016 - 9/9/2017	9/10/2017 - 9/9/2018	9/10/2018 - 9/9/2019	9/10/2019 - 9/9/2020	9/10/2020 - 9/9/2021
+Aeronautical Engineer II	On	57.42	58.06	58.7	59.33	59.97	59.97
+Aeronautical Engineer III	On	70.08	70.86	71.64	72.42	73.2	73.2
+Configuration &amp; Data Management Analyst I	On	34.47	34.89	35.3	35.72	36.13	36.13
+Configuration Management Analyst II	On	36.34	36.78	37.21	37.65	38.09	38.09
+Configuration Management Analyst III	On	60.44	61.1	61.76	62.42	63.07	63.07
+Configuration Management Specialist	On	69.1	69.96	70.82	71.69	72.55	72.55
+Cyber Specialist II	On	42.38	42.89	43.4	43.91	44.42	44.42
+Drafter III	On	37.44	37.89	38.34	38.79	39.25	39.25
+Logistics Engineer I	On	41.83	42.3	42.76	43.23	43.69	43.69
+Logistics Engineer II	On	65.09	65.78	66.47	67.16	67.86	67.86
+Logistics Engineer III	On	76.88	77.81	78.74	79.66	80.59	80.59
+Mechanical Engineer II	On	71.29	72.08	72.87	73.67	74.46	74.46
+Military Systems Specialist II	On	122.78	124.42	126.06	127.69	129.33	129.33
+Network Systems Analyst III	On	65.55	66.33	67.11	67.89	68.67	68.67
+Project Manager III	On	115.82	117.21	118.61	120	121.4	121.4
+Project Specialist I	On	97.87	99.05	100.23	101.41	102.59	102.59
+Project Specialist II	On	117.15	118.57	119.98	121.39	122.8	122.8
+Project Specialist III	On	127.95	129.49	131.04	132.58	134.12	134.12
+Quality Engineer I	On	45.32	45.8	46.28	46.76	47.25	47.25
+Quality Engineer II	On	57	57.68	58.37	59.06	59.74	59.74
+Quality Engineer III	On	81.07	81.97	82.87	83.77	84.68	84.68
+Scientist	On	103.9	105.05	106.2	107.36	108.51	108.51
+Senior  Scientist	On	122.12	123.41	124.69	125.98	127.26	127.26
+Software Engineer I	On	40.81	41.3	41.79	42.29	42.78	42.78
+Software Engineer II	On	56.65	57.33	58.01	58.7	59.38	59.38
+Software Engineer III	On	66.52	67.32	68.12	68.92	69.72	69.72
+Software Engineer IV	On	92.12	93.21	94.29	95.37	96.46	96.46
+Subject Matter Expert I	On	182.1	184.3	186.49	188.68	190.88	190.88
+Subject Matter Expert II	On	258.34	261.38	264.42	267.46	270.5	270.5
+Subject Matter Expert III	On	278.93	282.64	286.36	290.08	293.8	293.8
+Systems Engineer I	On	47.23	47.8	48.37	48.93	49.5	49.5
+Systems Engineer II	On	64.28	65.06	65.83	66.61	67.38	67.38
+Systems Engineer III	On	85.87	86.91	87.94	88.98	90.01	90.01
+Technical Document Specialist II	On	54.85	54.85	54.85	54.85	54.85	54.85
+Technical Document Specialist III	On	63.51	63.51	63.51	63.51	63.51	63.51
+Training Specialist I	On	44.86	45.4	45.94	46.48	47.02	47.02
+Training Specialist II	On	61.08	61.82	62.55	63.29	64.02	64.02
+							
+Optimization Technology, Inc. (OTI) - PSS PES							
+Labor Category	Site	9/10/2017 - 9/9/2018	9/10/2018 - 9/9/2019	9/10/2019 - 9/9/2020	9/10/2020 - 9/9/2021
+Systems Engineer III	On	87.94	88.98	90.01	90.01
+Project Specialist III	On	131.04	132.58	134.12	134.12
+Subject Matter Expert I	On	186.49	188.68	190.88	190.88
+Engineer/Analyst 4	On	102.16	105.12	108.17	111.3
+Engineer/Scientist L1	On	92.97	95.66	98.44	101.29
+Engineer/Scientist L3	On	130.72	134.51	138.41	142.42
+Sys Engineer/Analyst 6	On	160.62	165.27	170.07	175
+							
+Pie Valley Consulting LLC (PVC) - PSS	
+							
+OTC - PSS							
+Labor Category	Site						
+							
+Palisade Technologies LCC - PSS							
+Labor Category	Site	9/10/2015 - 9/9/2016	9/10/2016 - 9/9/2017	9/10/2017 - 9/9/2018	9/10/2018 - 9/9/2019	9/10/2019 - 9/9/2020	9/10/2020 - 9/9/2021
+Aeronautical Engineer II	On	57.42	58.06	58.7	59.33	59.97	59.97
+Aeronautical Engineer III	On	70.08	70.86	71.64	72.42	73.2	73.2
+Configuration &amp; Data Management Analyst I	On	34.47	34.89	35.3	35.72	36.13	36.13
+Configuration Management Analyst II	On	36.34	36.78	37.21	37.65	38.09	38.09
+Configuration Management Analyst III	On	60.44	61.1	61.76	62.42	63.07	63.07
+Configuration Management Specialist	On	69.1	69.96	70.82	71.69	72.55	72.55
+Cyber Specialist II	On	42.38	42.89	43.4	43.91	44.42	44.42
+Drafter III	On	37.44	37.89	38.34	38.79	39.25	39.25
+Logistics Engineer I	On	41.83	42.3	42.76	43.23	43.69	43.69
+Logistics Engineer II	On	65.09	65.78	66.47	67.16	67.86	67.86
+Logistics Engineer III	On	76.88	77.81	78.74	79.66	80.59	80.59
+Mechanical Engineer II	On	71.29	72.08	72.87	73.67	74.46	74.46
+Military Systems Specialist II	On	122.78	124.42	126.06	127.69	129.33	129.33
+Network Systems Analyst III	On	65.55	66.33	67.11	67.89	68.67	68.67
+Project Manager III	On	115.82	117.21	118.61	120	121.4	121.4
+Project Specialist I	On	97.87	99.05	100.23	101.41	102.59	102.59
+Project Specialist II	On	117.15	118.57	119.98	121.39	122.8	122.8
+Project Specialist III	On	127.95	129.49	131.04	132.58	134.12	134.12
+Quality Engineer I	On	45.32	45.8	46.28	46.76	47.25	47.25
+Quality Engineer II	On	57	57.68	58.37	59.06	59.74	59.74
+Quality Engineer III	On	81.07	81.97	82.87	83.77	84.68	84.68
+Scientist	On	103.9	105.05	106.2	107.36	108.51	108.51
+Senior  Scientist	On	122.12	123.41	124.69	125.98	127.26	127.26
+Software Engineer I	On	40.81	41.3	41.79	42.29	42.78	42.78
+Software Engineer II	On	56.65	57.33	58.01	58.7	59.38	59.38
+Software Engineer III	On	66.52	67.32	68.12	68.92	69.72	69.72
+Software Engineer IV	On	92.12	93.21	94.29	95.37	96.46	96.46
+Subject Matter Expert I	On	182.1	184.3	186.49	188.68	190.88	190.88
+Subject Matter Expert II	On	258.34	261.38	264.42	267.46	270.5	270.5
+Subject Matter Expert III	On	278.93	282.64	286.36	290.08	293.8	293.8
+Systems Engineer I	On	47.23	47.8	48.37	48.93	49.5	49.5
+Systems Engineer II	On	64.28	65.06	65.83	66.61	67.38	67.38
+Systems Engineer III	On	85.87	86.91	87.94	88.98	90.01	90.01
+Technical Document Specialist II	On	54.85	54.85	54.85	54.85	54.85	54.85
+Technical Document Specialist III	On	63.51	63.51	63.51	63.51	63.51	63.51
+Training Specialist I	On	44.86	45.4	45.94	46.48	47.02	47.02
+Training Specialist II	On	61.08	61.82	62.55	63.29	64.02	64.02
+							
+"PeopleTec, Inc. - PSS"							
+Labor Category	Site	1/29/2016 - 1/28/2017	1/29/2017 - 1/28/2018	1/29/2018 - 1/28/2019	1/29/2019 - 1/28/2020	1/29/2020 - 1/28/2021	1/29/2021 - 1/28/2022
+Engineer/Analyst 1	On	49.6	51.03	52.51	54.03	55.6	55.6
+Engineer/Analyst 2	On	64.63	66.5	68.43	70.42	72.46	72.46
+Engineer/Analyst 3	On	72.86	74.97	77.14	79.38	81.68	81.68
+Engineer/Analyst 4	On	102.16	105.12	108.17	111.3	114.53	114.53
+Engineer/Scientist L1	On	92.97	95.66	98.44	101.29	104.23	104.23
+Engineer/Scientist L3	On	130.72	134.51	138.41	142.42	146.55	146.55
+Engineer/Scientist L4	On	136.79	140.76	144.84	149.04	153.36	153.36
+Jr. Engineer I	On	67.26	69.21	71.22	73.29	75.42	75.42
+Jr. Engineer II	On	80.2	82.53	84.92	87.38	89.92	89.92
+Sr. Engineer/Scientist L2	On	150.68	155.06	159.55	164.18	168.94	168.94
+Sys Engineer/Analyst 1	On	108.42	111.56	114.8	118.12	121.55	121.55
+Sys Engineer/Analyst 2	On	113.88	117.18	120.58	124.07	127.67	127.67
+Sys Engineer/Analyst 3	On	123.96	127.55	131.24	135.05	138.97	138.97
+Sys Engineer/Analyst 4	On	140.26	144.33	148.52	152.82	157.26	157.26
+Sys Engineer/Analyst 6	On	160.62	165.27	170.07	175	180.07	180.07
+							
+Pie Valley Consulting LLC (PVC) - PSS							
+Labor Category	Site	9/10/2015 - 9/9/2016	9/10/2016 - 9/9/2017	9/10/2017 - 9/9/2018	9/10/2018 - 9/9/2019	9/10/2019 - 9/9/2020	9/10/2020 - 9/9/2021
+Project Specialist I	On	97.87	99.05	100.23	101.41	102.59	102.59
+Project Specialist II	On	117.15	118.57	119.98	121.39	122.8	122.8
+Project Specialist III	On	127.95	129.49	131.04	132.58	134.12	134.12
+Subject Matter Expert I	On	182.1	184.3	186.49	188.68	190.88	190.88
+Technical Document Specialist II	On	54.85	54.85	54.85	54.85	54.85	54.85
+Technical Document Specialist III	On	63.51	63.51	63.51	63.51	63.51	63.51
+							
+"Quantum Research International, Inc. - PSS"							
+Labor Category	Site						
+							
+"Radiance Technologies, Inc. - IT"							
+Labor Category	Site						
+							
+"Radiance Technologies, Inc. - PSS"							
+Labor Category	Site						
